@@ -1,0 +1,5 @@
+condition,accuracy,n_synthetic_kept
+Baseline,0.833333,-
+Unfiltered,0.666667,144
+Filtered-Cov,0.833333,0
+Filtered-Dual,0.833333,0

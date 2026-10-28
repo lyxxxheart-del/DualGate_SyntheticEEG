@@ -1,0 +1,13 @@
+# Core scientific dependencies for the covariance-gate MI-EEG pipeline.
+# Tested with Python 3.14.0.
+
+numpy==2.5.3
+scipy==1.18.1
+mne==1.13.2
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Note: scikit-learn and joblib are intentionally NOT required. The CSP+LDA
+# classifier is hand-written (src/downstream.py) and the gate operates directly
+# on sensor-space covariance, so the pipeline has no source-space (eLORETA)
+# feature cache that would need joblib.

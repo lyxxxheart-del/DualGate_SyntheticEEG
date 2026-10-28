@@ -1,0 +1,7 @@
+subject=A01 normalize=trace n_syn=144
+pass rates: cov=0.0000 disc=0.0000 dual=0.0000
+
+Baseline        0.833333
+Unfiltered      0.666667
+Filtered-Cov    0.833333
+Filtered-Dual   0.833333

@@ -1,0 +1,31 @@
+# Data & Caches
+data/
+cache/
+*.gdf
+*.mat
+*.npy
+*.pt
+*.pth
+__pycache__/
+*.pyc
+
+# Environments
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# --- Additions (required for this repo) ---
+# Downloaded archives (BCICIV_2a_gdf.zip is 439 MB -> exceeds GitHub 100 MB limit)
+*.zip
+
+# Run/build logs
+*.log
+
+# LaTeX build intermediates (keep the compiled main.pdf)
+*.aux
+*.bbl
+*.blg
+*.out
